@@ -1,0 +1,51 @@
+
+/* Header */
+
+header {
+    height: 124px;
+    flex-shrink: 0;
+    background: #000;
+}
+#marca {
+    color: #FFF;
+    font-family: "Sora";
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+header a {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
+    font-family: "Sora";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Barra de Pesquisa*/
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 94px;
+    width: 1732px;
+    height: 51px;
+    flex-shrink: 0;
+    background-color: #19181C;
+    padding-left: 22px;
+    position: relative;
+    top: 23px;
+}
+.barra div {
+    display: flex;
+    gap: 10px;
+    padding-right: 10px;
+}
