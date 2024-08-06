@@ -135,3 +135,215 @@ a {
     flex-shrink: 0;
     object-fit: cover;
 }
+
+/* Estatisticas */
+
+.estatica {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+    align-items: center;
+}
+
+.espec_container {
+    display: flex;
+    gap: 50px;
+}
+.bloco {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bloco h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Suwannaphum";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.sec {
+    color: #FFF;
+    font-family: "Suwannaphum";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.km {
+    color: #FFF;
+    text-align: center;
+    font-family: "Suwannaphum";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.cv {
+    color: #FFF;
+    text-align: center;
+    font-family: "Suwannaphum";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.menor {
+    position: relative;
+    bottom: 65px;
+    color: #B8B8B8;
+    text-align: center;
+    font-family: "Sora";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.vertical {
+    display: flex;
+    flex-direction: column;
+}
+.parag {
+    width: 50%;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: "Sora";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Detalhamento */
+
+.engine_detail {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 160px;
+    padding: 10px 70px;
+}
+.engine_detail img{
+    width: 664px;
+    height: 442px;
+    object-fit: cover;
+}
+.engine_detail h2 {
+    color: #FFF;
+    font-family: "Suwannaphum";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+.motor_detalhe {
+    text-align: justify;
+    color: #DBDBDB;
+    font-family: "Sora";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 904px;
+    height: 181px;
+    flex-shrink: 0;
+    padding-left: 850px;
+    position: relative;
+    bottom: 30px;
+}
+
+/* Aerodinamica */
+
+.titulo {
+    color: #000;
+    font-family: "Suwannaphum";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding-left: 70px;
+    margin-top: -1000px;
+    padding-bottom: 720px;
+}
+.img2 {
+    width: 100%;
+    height: 1056px;
+    flex-shrink: 0;
+}
+.ar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 0 70px;
+}
+.ar img {
+    width: 769px;
+    height: 407px;
+    flex-shrink: 0;
+    object-fit: cover;
+    padding-bottom: 100px;
+}
+.ar p {
+    text-align: justify;
+    color: #DBDBDB;
+    font-family: "Sora";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* Implentar !!!---------------------------------------------------------------------!!!*/
+.ser_implementado {
+    height: 800px;
+}
+
+/* Interior */
+
+.interior img{
+    width: 100%;
+    height: 1159px;
+    flex-shrink: 0;
+}
+.interior h1 {
+    color: #FFF;
+    font-family: "Suwannaphum";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 70px;
+    margin-top: -1050px;
+    padding-bottom: 850px;
+}
+.cicle {
+    width: 203px;
+    height: 203px;
+    flex-shrink: 0;
+    fill: rgba(64, 62, 62, 0.90);
+    position: relative;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.svg-container {
+    position: relative;
+    bottom: 650px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 203px; /* Ajuste o tamanho conforme necessário */
+    height: 203px; /* Ajuste o tamanho conforme necessário */
+    border-radius: 50%;
+    cursor: pointer;
+}
+.svg-container img {
+    width: 173px;
+    height: auto;
+    flex-shrink: 0;
+    position: relative;
+    bottom: 150px;
+    margin-left: 15px;
+}
+
